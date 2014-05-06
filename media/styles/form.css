@@ -1,0 +1,52 @@
+/* .search
+==========================================================*/
+.search { background: #fff; }
+	.search legend { display: none; }
+	.search input { float: left; }
+	.search input[type=text] {
+		border: 0;
+		margin: 0;
+		padding: 6px 7px;
+		width: 116px;
+	}
+
+/* .ui-button
+==========================================================*/
+#content .ui-button {
+	background: #4a9dc8 url("../images/forms/button.png") repeat-x;
+	border: 1px solid;
+	border-color: #79badb #5594b4 #2e6a89 #5594b4;
+	color: #fff !important;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px 8px;
+	text-shadow: 0 1px 0 #2271ab;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	webkit-box-shadow: 0px 1px 2px #d4d4d4;
+	-moz-box-shadow: 0px 1px 2px #d4d4d4;
+	box-shadow: 0px 1px 2px #d4d4d4;
+}
+#content .ui-button.big {
+	background-color: #489cc7;
+	background-image: url("../images/forms/button-big.png");
+	font-size: 22px;
+	padding: 12px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+	#content .ui-button:hover { text-decoration: none; }
+	#content .ui-button:active { background-image: none; }
+
+/* ~
+==========================================================*/
+button, label { cursor: pointer; }
+
+input[type=text],
+input[type=password],
+textarea {
+	color: #888;
+	font: 12px Helvetica, Arial, sans-serif;
+}
